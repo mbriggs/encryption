@@ -2,14 +2,14 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 
 Gem::Specification.new do |spec|
-  spec.name = 'encryption'
+  spec.name = 'mb-encryption'
   spec.version = '0.1.0'
   spec.authors = ['Matt Briggs']
   spec.email = ['matt@mattbriggs.ca']
   spec.summary = 'encryption'
   spec.description = 'encrypt/decrypt using libsodium'
   spec.homepage = 'http://mbriggs.io'
-  spec.metadata['allowed_push_host'] = 'http://https://rubygems.pkg.github.com/mbriggs'
+  spec.metadata['allowed_push_host'] = 'https://rubygems.pkg.github.com/mbriggs'
   spec.files = Dir.glob('{lib}/**/*')
   spec.require_paths = ['lib']
   spec.platform = Gem::Platform::RUBY
